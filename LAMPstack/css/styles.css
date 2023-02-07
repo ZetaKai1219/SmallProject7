@@ -17,10 +17,57 @@ body
 {
     font-size: 30px;
     width: 70%;
-    margin-left: 15%;
+    margin-top: 60px;
+    margin-left: 125px;
     padding: 25px;
     background-color: #b2b2b2;
 }
+
+#signupDiv
+{
+    font-size: 30px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 125px;
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+/* Register button section, by Kaido */
+
+#regDiv
+{
+    font-size: 60px;
+    width: 60%;
+    
+    margin-top: 10%;
+    margin-left: 20%;
+    
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+#regButton{
+    font-size: 35px;
+    border-radius: 15px;
+    width: 35%;
+    margin-top: -8%;
+    margin-left: 85%; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#inner-title2{
+    display: inline-block;
+    font-size: 0.45em;
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -75px; 
+    font-family: 'Ubuntu', sans-serif;
+    color: #95060a;
+}
+
+/* End register section */
 
 #loggedInDiv
 {
@@ -29,6 +76,17 @@ body
     margin-left: 15%;
     padding: 25px;
     background-color: #b2b2b2;
+}
+
+#regResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #c4c4c4;
 }
 
 #accessUIDiv
@@ -72,6 +130,23 @@ body
 	font-size: 30px;
 }
 
+#firstName
+{
+	font-size: 30px;
+}
+#lastName
+{
+	font-size: 30px;
+}
+#signupName
+{
+	font-size: 30px;
+}
+#signupPassword
+{
+	font-size: 30px;
+}
+
 input[type="text"],input[type="password"]{
     border-radius: 25px;
     text-align: center;
@@ -79,6 +154,16 @@ input[type="text"],input[type="password"]{
     margin-left: 10%;
     margin-bottom: 2%;
     font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="sutext"],input[type="supassword"]{
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 1px 5px rgb(186, 32, 32);
 }
 
 #inner-title{
